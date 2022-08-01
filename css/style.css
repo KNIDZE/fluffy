@@ -1,0 +1,145 @@
+:root {
+  --main-font: 'Inter';
+  --input-text-color: #484848;
+  --main-blue-color: #92B4EC;
+  --secondary-color: #FFD24C;
+}
+
+body {
+  font-family: var(--main-font), sans-serif;
+  font-size: 25px;
+
+}
+
+header {
+  position: fixed;
+  font-size: 20px;
+  line-height: 24px;
+  background-color: white;
+}
+
+button {
+  border: 0;
+  background-color: white;
+
+}
+button:hover{
+  cursor: pointer;
+}
+input, label {
+  width: 100%;
+  height: 40px;
+  background-color: #D9D9D9;
+  border-radius: 30px;
+  border: 0;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: var(--input-text-color);
+
+}
+input:hover, input:focus{
+  background-color: var(--main-blue-color);
+}
+form {
+  width: 21%;
+  margin: 0 3.15% 0 4.5%
+}
+
+header button {
+  padding: 0 1.35% 0 1.35%;
+  height: 100px;
+  max-height: 100%;
+  box-sizing: border-box;
+}
+
+header button:hover {
+  background-color: var(--main-blue-color);
+  border-radius: 10%;
+
+}
+p{
+  width: 48%;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 45px;
+  padding-bottom: 126px;
+}
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+header .container {
+  width: 100vw;
+
+}
+.icon{
+  left:35px;
+  top:11px;
+}
+.icon:hover{
+  cursor: pointer;
+}
+.fa-chevron-down {
+  font-size: 11px;
+}
+
+.chevron {
+  align-items: center;
+  justify-content: center;
+  width: 15px;
+  height: 15px;
+  background-color: white;
+  border: 0.5px black solid;
+  border-radius: 50%;
+  bottom: 3px;
+}
+h1{
+  padding-top: 147px;
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 65px;
+  padding-bottom: 83px;
+}
+header .container, .user_div {
+  align-items: center;
+}
+.user_div{
+  right: 120px;
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.logo {
+  padding: 11px 0 11px 7%;
+}
+
+.star {
+  padding-right: 1.6vw;
+  width: 3vw;
+  height: 3vw;
+}
+.hello .container{
+  width: calc(100% - 220px);
+  margin-left: auto;
+  margin-right: auto;
+}
+.hello button{
+  width: 410px;
+  height: 85px;
+  background-color: var(--secondary-color);
+  border-radius: 30px;
+  margin-bottom: 200px;
+}
+.hello button:hover{
+  background-color: var(--main-blue-color);
+  color: white;
+}
