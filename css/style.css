@@ -18,6 +18,13 @@ header {
   background-color: white;
 }
 
+p{
+  width: 100%;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 45px;
+  padding-bottom: 126px;
+}
 button {
   border: 0;
   background-color: white;
@@ -60,13 +67,7 @@ header button:hover {
   border-radius: 10%;
 
 }
-p{
-  width: 48%;
-  font-weight: 400;
-  font-size: 25px;
-  line-height: 45px;
-  padding-bottom: 126px;
-}
+
 .relative {
   position: relative;
 }
@@ -78,6 +79,13 @@ p{
 header .container {
   width: 100vw;
 
+}
+h1{
+  padding-top: 40px;
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 65px;
+  padding-bottom: 83px;
 }
 .icon{
   left:35px;
@@ -100,13 +108,7 @@ header .container {
   border-radius: 50%;
   bottom: 3px;
 }
-h1{
-  padding-top: 147px;
-  font-weight: 700;
-  font-size: 54px;
-  line-height: 65px;
-  padding-bottom: 83px;
-}
+
 header .container, .user_div {
   align-items: center;
 }
@@ -117,7 +119,10 @@ header .container, .user_div {
   display: flex;
   flex-direction: row;
 }
-
+.flex-column{
+  display: flex;
+  flex-direction: column;
+}
 .logo {
   padding: 11px 0 11px 7%;
 }
@@ -131,6 +136,8 @@ header .container, .user_div {
   width: calc(100% - 220px);
   margin-left: auto;
   margin-right: auto;
+  padding-top: 240px;
+  justify-content: space-between;
 }
 .hello button{
   width: 410px;
@@ -142,4 +149,48 @@ header .container, .user_div {
 .hello button:hover{
   background-color: var(--main-blue-color);
   color: white;
+}
+.dog_image{
+  height: 100%;
+  padding-bottom: 167px;
+}
+.why_fluffy .container{
+  align-items: center;
+}
+.why_fluffy p{
+  text-align: center;
+}
+.cards{
+  padding-top: 63px;
+  padding-bottom: 163px;
+}
+.card{
+  width: 360px;
+  height: 430px;
+  background: #F5F9FF;
+  box-shadow: 0 17px 18px -11px rgba(73, 92, 128, 0.25);
+  border-radius: 27px;
+  margin-left: 12.5px;
+  margin-right: 12.5px;
+  align-items: center;
+  justify-content: center;
+}
+.card h3{
+  font-size: 22px;
+  line-height: 26px;
+}
+.card p{
+  padding: 0;
+  width: 85%;
+  font-size: 18px;
+  line-height: 33px;
+}
+.card:hover{
+  transition-duration: 0.3s;
+  margin-top: -30px;
+  background-color: var(--main-blue-color);
+}
+.card:hover img{
+  transition-duration: 0.3s;
+  filter: brightness(0) invert(1);
 }
